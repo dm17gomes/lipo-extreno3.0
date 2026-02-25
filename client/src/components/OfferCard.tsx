@@ -162,7 +162,6 @@ export function OfferCard({
               >
                 <Truck className="w-5 h-5" />
                 🚚 PAGAR NA ENTREGA
-              </a>
             </Button>
             <div className="text-center">
               <p className="text-[10px] font-black text-gray-900 uppercase tracking-widest">
