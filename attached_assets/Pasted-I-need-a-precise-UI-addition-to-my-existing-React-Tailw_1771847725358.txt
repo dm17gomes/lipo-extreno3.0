@@ -1,0 +1,96 @@
+I need a precise UI addition to my existing React + Tailwind sales page.
+
+IMPORTANT RULES:
+- Do NOT redesign the page.
+- Do NOT refactor components.
+- Do NOT modify checkout logic.
+- Do NOT change payment buttons.
+- Do NOT change offer cards.
+- Only insert a new informational block.
+- Keep everything responsive and mobile-first.
+- Keep all visible content in Portuguese (Brazil).
+- Follow the current Tailwind design style of the project.
+
+----------------------------------------------------
+TASK:
+----------------------------------------------------
+
+Insert a new informational trust block about "Pagamento na Entrega".
+
+POSITION:
+Place this section immediately BEFORE the offers/pricing section.
+It must appear after testimonials and before the offer cards.
+
+Do NOT move other sections.
+
+----------------------------------------------------
+CONTENT (keep exactly as written below):
+----------------------------------------------------
+
+Title:
+🚚 Pague Somente Quando Receber na Sua Casa
+
+Text:
+A entrega é realizada em até 24h (dependendo da sua região) com frete grátis.
+Você só paga quando o produto chegar até você, direto com o entregador.
+
+Highlight sentence:
+Sem risco. Sem pagamento antecipado.
+
+Payment methods:
+✔ À vista: Pix, Dinheiro ou Cartão de Débito
+✔ Parcelado: Cartão de Crédito em até 12x
+
+Delivery info:
+Entregas de segunda a sábado, das 08h às 19h (exceto domingos e feriados).
+
+----------------------------------------------------
+STYLE REQUIREMENTS:
+----------------------------------------------------
+
+Container:
+- max-w-4xl
+- mx-auto
+- my-10
+- p-6
+- rounded-2xl
+- border border-green-200
+- bg-green-50
+- subtle shadow
+
+Title:
+- text-2xl
+- font-bold
+- text-green-700
+- text-center
+- mb-4
+
+Main text:
+- text-gray-700
+- text-center
+- mb-4
+
+Highlight sentence:
+- font-semibold
+- text-green-700
+- text-center
+- mb-6
+
+Payment lines:
+- space-y-3
+- text-gray-700
+
+Delivery info:
+- mt-6
+- text-sm
+- text-gray-600
+- text-center
+
+----------------------------------------------------
+FINAL CONSTRAINT:
+----------------------------------------------------
+
+Only add this section.
+Do not modify any existing layout.
+Do not adjust spacing of other components.
+Keep everything visually consistent with current design.

@@ -1,0 +1,84 @@
+You will restructure and optimize my existing sales page for higher conversion, WITHOUT deleting any existing assets, images, videos, testimonials, pricing blocks, or backend logic.
+
+IMPORTANT:
+- Do NOT remove any existing files.
+- Do NOT break routing or backend.
+- Do NOT delete images, testimonials or pricing sections.
+- Only reorganize, improve copy and enhance structure.
+- Keep all existing content but improve hierarchy and persuasion.
+- Keep using Tailwind and current styling system.
+
+GOAL:
+Transform the page into a high-converting direct response sales page using persuasion psychology principles (social proof, authority, scarcity, commitment, risk reversal, contrast, anchoring).
+
+STRUCTURE TO IMPLEMENT:
+
+1️⃣ HERO SECTION (Above the fold)
+Create a strong emotional headline focused on pain:
+Example:
+"Cansada de tentar emagrecer e nada funcionar?"
+
+Subheadline:
+"Descubra o método que já ajudou milhares de pessoas a eliminar até 12kg sem sofrimento."
+
+Primary CTA button:
+"QUERO COMEÇAR MINHA TRANSFORMAÇÃO"
+
+Add subtle urgency text below CTA:
+"Estoque limitado — alta demanda esta semana."
+
+2️⃣ PROBLEM SECTION
+Add a short emotional section explaining:
+- metabolismo lento
+- efeito sanfona
+- inchaço
+- frustração com dietas
+
+3️⃣ MECHANISM / DIFFERENTIATION SECTION
+Explain why Lipo Extremo works differently.
+Highlight:
+- fórmula avançada
+- aceleração metabólica
+- redução de retenção
+- suporte energético
+
+4️⃣ SOCIAL PROOF SECTION (Reorganized)
+Move strongest before/after transformations first.
+Then show testimonial cards.
+Then show WhatsApp print proofs.
+Then show video testimonials.
+
+Add headline:
+"Resultados Reais de Clientes"
+
+5️⃣ OFFER SECTION (Improve Anchoring)
+Keep all kits.
+Highlight 3 potes as:
+"MAIS VENDIDO — MELHOR CUSTO BENEFÍCIO"
+
+Visually emphasize this card.
+Add small badge: "Mais Escolhido"
+
+6️⃣ RISK REVERSAL
+Keep guarantee section.
+Make headline stronger:
+"Risco Zero — Ou Seu Dinheiro de Volta"
+
+7️⃣ SCARCITY SECTION
+Add small urgency block before pricing:
+"Últimas unidades com condição promocional."
+
+8️⃣ CLEAN UX
+Remove excessive floating promo bars.
+Keep only one fixed CTA button on scroll.
+Reduce visual clutter.
+
+9️⃣ KEEP EVERYTHING ELSE
+Do not delete FAQ.
+Do not delete CNPJ.
+Do not delete support information.
+Do not delete testimonials.
+
+Improve layout spacing and visual hierarchy.
+
+Optimize for mobile first.

@@ -1,0 +1,266 @@
+Create a complete, high-conversion sales landing page in Brazilian Portuguese for a weight loss supplement called "Lipo Extremo".
+
+The page must be fully optimized for mobile and desktop, visually modern, clean, professional, and focused on conversion.
+
+MAIN GOAL:
+Sell Lipo Extremo using two payment options:
+
+1) Pagamento na Entrega (Cash on Delivery) — Available for selected regions
+2) Pagamento Online Seguro — Available nationwide via Sedex
+
+Both options must be presented clearly and professionally to build trust.
+
+-----------------------------------
+STRUCTURE REQUIRED:
+
+1. HERO SECTION (Above the Fold)
+
+Big headline in Portuguese:
+"Emagreça de Forma Natural, Segura e Escolha Como Pagar"
+
+Subheadline:
+"Com Lipo Extremo, você ativa seu metabolismo, reduz medidas e recebe em casa com total segurança."
+
+Bullet points:
+✔ Pagamento na Entrega (Regiões Atendidas)
+✔ Pagamento Online Seguro
+✔ Frete Grátis para Todo Brasil
+✔ 30 Dias de Garantia
+✔ 100% Natural
+✔ Aprovado pelas Normas da Anvisa
+
+Main CTA Button:
+"QUERO EMAGRECER AGORA — ESCOLHER PAGAMENTO"
+
+-----------------------------------
+
+2. PAYMENT TRANSPARENCY SECTION
+
+Explain clearly:
+
+"Para oferecer mais segurança aos nossos clientes, trabalhamos com duas formas de pagamento:"
+
+Pagamento na Entrega:
+Disponível para regiões selecionadas. Você recebe primeiro e paga ao entregador.
+
+Pagamento Online:
+Disponível para todo o Brasil com envio via Sedex, rastreamento e proteção.
+
+-----------------------------------
+
+3. PROBLEM + EMPATHY SECTION
+
+Talk about:
+- dificuldade para emagrecer
+- dietas frustradas
+- efeito sanfona
+- falta de tempo
+- ansiedade alimentar
+- metabolismo lento
+
+Use emotional language and empathy.
+
+-----------------------------------
+
+4. SOLUTION SECTION — LIPO EXTREMO
+
+Explain:
+- suplemento natural
+- acelera metabolismo
+- reduz inchaço
+- controla apetite
+- aumenta energia
+- ajuda na queima de gordura
+
+Ingredients:
+L-Carnitina
+Cafeína
+Chá Verde
+Gengibre
+Taurina
+Guaraná
+Pimenta Caiena
+
+-----------------------------------
+
+5. BENEFITS SECTION
+
+Use icons and bullet points:
+
+✔ Queima gordura localizada
+✔ Reduz barriga e inchaço
+✔ Mais energia no dia a dia
+✔ Controle da fome
+✔ Resultados progressivos
+✔ Sem dietas extremas
+
+-----------------------------------
+
+6. SOCIAL PROOF — TESTIMONIALS
+
+Create a section for before/after photos.
+
+Include example testimonials:
+
+"Perdi 8kg em 2 meses, estou muito feliz!"
+"Primeira vez que consegui emagrecer sem sofrimento."
+"Produto chegou rápido e só paguei quando recebi."
+
+Leave space for real images.
+
+-----------------------------------
+
+7. HOW IT WORKS SECTION
+
+1️⃣ Você faz o pedido
+2️⃣ Escolhe a forma de pagamento
+3️⃣ Enviamos para sua casa
+4️⃣ Você recebe
+5️⃣ Inicia seu tratamento
+
+-----------------------------------
+
+8. OFFERS AND PRICES — TWO PAYMENT OPTIONS
+
+Create pricing cards with two buttons each.
+
+PLAN 1 — 1 Pote — R$197 — 30 Dias
+
+Button A (Pagamento na Entrega):
+"COMPRAR 1 POTE — PAGAR NA ENTREGA"
+https://entrega.logzz.com.br/pay/mem42e406/lipoextremo1pote197
+
+Button B (Pagamento Online):
+"COMPRAR 1 POTE — PAGAR ONLINE"
+https://ev.braip.com/ref?pl=plaplxpw&ck=chel0xpl&af=afi11lgv0o
+
+-----------------------------------
+
+PLAN 2 — 3 Potes — R$277 — 90 Dias (Mais Vendido)
+
+Button A:
+https://entrega.logzz.com.br/pay/mem42e406/xmnru-lipoextremo3potes277
+
+Button B:
+https://ev.braip.com/ref?pl=plan2plq&ck=chel0xpl&af=afi11lgv0o
+
+-----------------------------------
+
+PLAN 3 — 5 Potes — R$477 — 150 Dias (Maior Economia)
+
+Button A:
+https://entrega.logzz.com.br/pay/mem42e406/lipoextremo5potes477
+
+Button B:
+https://ev.braip.com/ref?pl=pla6lvdl&ck=chel0xpl&af=afi11lgv0o
+
+-----------------------------------
+
+9. GUARANTEE SECTION
+
+Title:
+"30 Dias de Garantia Incondicional"
+
+Explain:
+If the customer is not satisfied, full refund available.
+
+-----------------------------------
+
+10. FAQ SECTION
+
+Create accordion with:
+
+- Posso pagar na entrega em qualquer região?
+- O pagamento online é seguro?
+- Tem efeitos colaterais?
+- Precisa de receita?
+- Quanto tempo para resultados?
+- Gestantes podem usar?
+- Tem garantia?
+- Aprovado pela Anvisa?
+- Como usar?
+- Tem rastreio?
+
+-----------------------------------
+
+11. URGENCY + SCARCITY
+
+Title:
+"Últimas Unidades com Condições Especiais"
+
+Explain:
+- Estoque limitado
+- Alta demanda
+- Promoção temporária
+
+-----------------------------------
+
+12. FINAL CTA SECTION
+
+"Comece Sua Transformação Hoje"
+
+Buttons:
+"RECEBER EM CASA — ESCOLHER PAGAMENTO"
+
+-----------------------------------
+
+13. FOOTER — COMPANY INFO
+
+Include:
+
+Distribuído por:
+CICLO369 NUTRITION LTDA
+CNPJ: 60.013.838/0001-41
+
+Contato:
+Email: atendimento@lipoextremohardcore.com.br
+Telefone: (14) 98229-2161
+WhatsApp: +55 91 98021-5556
+
+Include:
+Política de Privacidade
+Termos de Uso
+Suporte
+Selos de Segurança
+
+-----------------------------------
+
+14. FLOATING BUTTONS
+
+Floating WhatsApp:
+https://wa.me/5591980215556
+
+Click-to-call:
+tel:+5514982292161
+
+Sticky CTA on mobile.
+
+-----------------------------------
+
+DESIGN REQUIREMENTS:
+
+- Modern UI
+- Purple / pink / fitness colors
+- Smooth animations
+- Responsive layout
+- Sticky buttons
+- SEO optimized
+- Fast loading
+
+-----------------------------------
+
+IMPORTANT:
+
+Emphasize everywhere:
+
+✅ PAGAMENTO NA ENTREGA (REGIÕES ATENDIDAS)
+✅ PAGAMENTO ONLINE SEGURO
+✅ FRETE GRÁTIS
+✅ 30 DIAS DE GARANTIA
+
+Generate full HTML, CSS, and JavaScript code ready to deploy.
+Make it SEO optimized.
+Make it fast loading.
+
+Do NOT write explanations.
+Only generate the final working code.

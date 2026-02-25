@@ -1,0 +1,116 @@
+I need you to update my existing React + Tailwind sales page without breaking the current structure, layout, or functionality.
+
+IMPORTANT:
+- Do NOT change routing.
+- Do NOT remove existing components.
+- Do NOT alter backend logic.
+- Only improve the offer cards and payment buttons UI/UX.
+- Keep all visible text in Portuguese (Brazil).
+- Keep styling consistent with current design system (Tailwind).
+
+----------------------------------------------------
+1) HIGHLIGHT THE 3-UNIT OFFER (MAIN OFFER)
+----------------------------------------------------
+
+In the OfferCard component where the 3-unit package is rendered:
+
+- Add a badge at the top saying:
+
+"🔥 MAIS ESCOLHIDO"
+
+- The badge must:
+  - Be centered
+  - Have a green gradient background (from-green-600 to-emerald-500)
+  - White bold text
+  - Rounded-full
+  - Slight shadow
+  - Small pulse animation (subtle)
+
+- Add a soft glow effect around the card:
+  ring-2 ring-green-500 shadow-xl scale-[1.02]
+
+- Add a small text below price:
+
+"Melhor opção para resultados visíveis mais rápidos."
+
+Keep everything else intact.
+
+----------------------------------------------------
+2) PAYMENT SECTION STRUCTURE UPDATE
+----------------------------------------------------
+
+Above the payment buttons, insert this text:
+
+"Escolha sua forma de pagamento abaixo:"
+
+Style:
+text-center text-base font-semibold text-gray-800 mb-4
+
+----------------------------------------------------
+3) MAIN BUTTON – PAGAMENTO ONLINE
+----------------------------------------------------
+
+Keep it as primary.
+
+Button text:
+
+"💳 QUERO PAGAR ONLINE AGORA"
+
+Below the button, add:
+
+"✔ Aprovação imediata • ✔ Parcelamento disponível • ✔ Envio mais rápido"
+
+Style:
+text-center text-sm text-gray-500 mt-2
+
+----------------------------------------------------
+4) UPDATE "PAGAR NA ENTREGA" BUTTON
+----------------------------------------------------
+
+Replace the current small white button with a strong green conversion button.
+
+It must:
+
+- Be same width and height as online button
+- Use gradient:
+  bg-gradient-to-r from-green-600 to-emerald-500
+- White bold text
+- Rounded-2xl
+- Hover: slight scale and darker shade
+- Transition smooth
+
+Text:
+
+"🚚 PAGAR NA ENTREGA"
+
+Below it, add smaller text:
+
+"Verifique disponibilidade da sua cidade pelo WhatsApp."
+
+Button link must open in new tab:
+
+https://wa.me/5591980215556?text=Olá%20quero%20verificar%20se%20minha%20cidade%20aceita%20pagamento%20na%20entrega%20para%20o%20Lipo%20Extremo
+
+----------------------------------------------------
+5) IMPORTANT UX RULE
+----------------------------------------------------
+
+- Online payment remains visually dominant.
+- Delivery payment must look strong but secondary.
+- Keep spacing balanced.
+- Do NOT break responsiveness.
+- Maintain mobile-first layout.
+- Do NOT affect pixel or checkout logic.
+
+----------------------------------------------------
+6) FINAL GOAL
+----------------------------------------------------
+
+Increase perceived value of 3-unit offer.
+Increase trust in payment options.
+Reduce frustration from unavailable delivery cities.
+Improve WhatsApp assisted conversion.
+
+Apply changes directly in the correct components.
+Do not rewrite the entire page.
+Only modify what is necessary.

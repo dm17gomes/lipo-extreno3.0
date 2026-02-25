@@ -1,0 +1,79 @@
+I need a very precise correction in my existing React + Tailwind project.
+
+IMPORTANT RULES:
+- DO NOT redesign anything.
+- DO NOT change layout structure.
+- DO NOT modify working payment buttons.
+- DO NOT touch checkout logic.
+- Only fix the specific issues described below.
+- Preserve all Portuguese content.
+- Keep mobile-first responsiveness.
+
+----------------------------------------------------
+1) FIX THE CUT BADGE ON 3-UNIT CARD
+----------------------------------------------------
+
+The "🔥 MAIS ESCOLHIDO" badge is being visually cut at the top.
+
+Fix this by:
+
+- Changing the 3-unit offer card container from:
+  overflow-hidden
+  to:
+  overflow-visible
+
+- Keep position relative on the card.
+
+- Adjust badge positioning if necessary to:
+  absolute -top-4 left-1/2 -translate-x-1/2
+
+DO NOT resize the card.
+DO NOT change grid layout.
+Only prevent clipping.
+
+----------------------------------------------------
+2) RESTORE ORIGINAL DESCRIPTION TEXT
+----------------------------------------------------
+
+The description text that existed before the recent update (above or near the offer button area) must be restored.
+
+If the previous version exists in file history, restore that exact original Portuguese text.
+
+If not found automatically, revert the description area to a neutral version that matches original tone and positioning without affecting layout spacing.
+
+Do NOT change typography scale.
+Do NOT change spacing.
+Just restore previous descriptive content.
+
+----------------------------------------------------
+3) RESTORE FLOATING FIXED BUTTON (PROTOCOLO 7D)
+----------------------------------------------------
+
+The floating fixed CTA button was previously directing to the digital product "Protocolo Start Detox 7D".
+
+It is currently redirecting to the 5-unit physical kit.
+
+Restore the floating button exactly to its previous behavior:
+
+- Text:
+  "COMEÇAR PELO PROTOCOLO 7D"
+
+- It must link ONLY to the digital product (Protocolo 7D).
+- Restore previous href value if available in file history.
+- Do NOT modify its size.
+- Do NOT modify its color.
+- Do NOT modify its styling.
+- Do NOT reposition it.
+- Only restore its original link and behavior.
+
+----------------------------------------------------
+4) FINAL CONSTRAINT
+----------------------------------------------------
+
+Do not refactor components.
+Do not create new components.
+Do not alter other offers.
+Do not modify checkout or WhatsApp buttons.
+Only fix the three items above.
+
+Apply minimal surgical edits.

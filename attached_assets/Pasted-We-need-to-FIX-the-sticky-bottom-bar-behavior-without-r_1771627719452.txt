@@ -1,0 +1,93 @@
+We need to FIX the sticky bottom bar behavior without redesigning it.
+
+CRITICAL:
+Do NOT change the layout.
+Do NOT change the visual design.
+Do NOT change colors.
+Do NOT change spacing.
+Only fix behavior and positioning.
+
+-----------------------------------
+STEP 1 — CORRECT TARGET SECTION
+-----------------------------------
+
+The sticky button must smoothly scroll to the Start Plan section shown in the page:
+
+Section title:
+"Protocolo Start Detox 7D™"
+
+This section must have the ID:
+
+id="protocolo-start-7d"
+
+If it does not exist, add this ID to the section container of that plan.
+
+-----------------------------------
+STEP 2 — FIX SCROLL BEHAVIOR
+-----------------------------------
+
+When clicking the sticky bar OR the small colored button:
+
+It must ONLY execute smooth scroll to:
+
+#protocolo-start-7d
+
+It must NOT:
+- Redirect to product kits
+- Redirect to checkout
+- Redirect to other offers
+- Use window.location to another page
+
+Use:
+scrollIntoView({ behavior: "smooth" })
+
+-----------------------------------
+STEP 3 — KEEP ORIGINAL DESIGN
+-----------------------------------
+
+Maintain EXACT original structure:
+
+- White background sticky container
+- Small purple/pink gradient button
+- Text description inside the white area
+- Same height
+- Same padding
+- Same rounded corners
+- Same mobile fixed bottom behavior
+- Same desktop positioning
+
+Only change the TEXT to:
+
+Button text:
+"COMEÇAR PELO PROTOCOLO 7D"
+
+Description text:
+"Comece pelo plano Start de R$47 e dê o primeiro passo com investimento acessível."
+
+-----------------------------------
+STEP 4 — FIX WHATSAPP POSITION
+-----------------------------------
+
+The floating WhatsApp button must:
+
+- Stay fixed
+- Be positioned ABOVE the sticky bar
+- Have at least 20px spacing above it
+- Not overlap the sticky bar
+- Stay responsive on mobile
+
+Use bottom spacing adjustment only.
+Do not modify its design.
+
+-----------------------------------
+STEP 5 — TECH RULES
+-----------------------------------
+
+- Use React + Tailwind
+- Do not refactor components
+- Do not create new layouts
+- Do not remove existing structure
+- Only adjust scroll target and WhatsApp spacing
+- Keep implementation minimal and clean
+
+This is a behavior fix, not a redesign.

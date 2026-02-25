@@ -1,0 +1,148 @@
+We need to apply the following fixes and strategic updates to the website.
+
+IMPORTANT:
+- Keep all visible text in Portuguese.
+- Do NOT translate the page.
+- Do NOT break layout or responsiveness.
+- Do NOT remove Meta Pixel tracking.
+- Keep mobile optimization intact.
+
+=================================================
+1) FIX TESTIMONIAL VIDEO (PRODUCTION ISSUE)
+=================================================
+
+Problem:
+The first testimonial video works inside Replit preview but does NOT work on the live published site.
+It shows black screen and does not play.
+
+Fix requirements:
+
+1. Ensure the video file is inside the /public folder.
+2. Ensure the thumbnail image is inside /public/images.
+3. Use correct production path:
+
+<video controls playsinline preload="metadata"
+  poster="/images/thumbnail.jpg"
+  class="w-full rounded-2xl shadow-lg">
+  <source src="/videos/video.mp4" type="video/mp4" />
+</video>
+
+4. Make sure:
+   - The video is .mp4 (H264)
+   - No spaces in file name
+   - Correct case-sensitive path
+   - Static file is included in production build
+   - MIME type is correct
+
+5. The thumbnail MUST appear before clicking play.
+6. Keep same size as other testimonial videos.
+7. Keep play button centered.
+8. Do not autoplay.
+9. Test in production mode.
+
+=================================================
+2) REORDER PRICING STRATEGY (PSYCHOLOGICAL ANCHORING)
+=================================================
+
+Reorganize pricing section in this order:
+
+1️⃣ KIT 5 UNIDADES
+   - First position
+   - Add badge: "MAIOR ECONOMIA"
+   - Keep premium purple highlight
+   - Make it visually strong
+
+2️⃣ KIT 3 UNIDADES
+   - Second position
+   - Keep "MAIS ESCOLHIDO"
+   - Slight highlight
+
+3️⃣ KIT 1 UNIDADE
+   - Third position
+   - Add green micro badge:
+     "Comece com segurança"
+   - Add small text under price:
+     "Ideal para testar por 30 dias"
+
+4️⃣ DIGITAL PRODUCT – PROTOCOLO START DETOX 7D™
+   - Last position
+   - Visually separated
+   - Use green or yellow accent (different from purple physical kits)
+   - Add badge: "OPÇÃO ACESSÍVEL"
+
+Add persuasive microcopy above digital price:
+
+"Não pode investir no tratamento completo agora?
+Comece com o plano estratégico de 7 dias."
+
+Keep R$47,00
+Keep 7-day guarantee visible.
+Make CTA strong but not bigger than main product.
+
+=================================================
+3) PRIORITIZE ONLINE PAYMENT
+=================================================
+
+We need to change the payment emphasis.
+
+ONLINE PAYMENT must be the main option.
+
+Wherever payment is mentioned:
+
+- Highlight:
+  💳 Pagamento Online Seguro
+  Disponível para todo o Brasil.
+
+Use subtle icon and bold formatting.
+
+Below it, add smaller text:
+
+🚚 Pagamento na Entrega disponível apenas para algumas regiões.
+Consulte disponibilidade no momento da compra.
+
+Important:
+- Online payment must visually look like the primary method.
+- COD must look secondary.
+- Do not remove COD.
+- Just reduce visual emphasis.
+
+=================================================
+4) ADD MICRO NOTICE BELOW MAIN CTA BUTTON (TOP SECTION)
+=================================================
+
+Below the first hero CTA button add a small neutral notice:
+
+💳 Pagamento online disponível para todo o Brasil.
+🚚 Pagamento na entrega disponível em regiões selecionadas.
+
+Keep text small, neutral color (gray), not alarming.
+
+=================================================
+5) MOBILE SAFETY CHECK
+=================================================
+
+After all updates:
+
+- Ensure no overflow.
+- Ensure floating WhatsApp does not block pricing buttons.
+- Ensure digital product does not overpower main physical offer.
+- Ensure scroll behavior still works.
+- Ensure no layout shifts.
+
+=================================================
+FINAL GOAL
+=================================================
+
+User flow must be:
+
+Premium anchor (5 pots)
+↓
+Most chosen (3 pots)
+↓
+Entry test (1 pot)
+↓
+Accessible fallback (Digital Start)
+
+And Online Payment must feel like the safest and default choice.
+
+Confirm everything works in production.

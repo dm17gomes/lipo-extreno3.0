@@ -1,0 +1,229 @@
+Create a complete, high-conversion sales landing page in Brazilian Portuguese for a weight loss supplement called "Lipo Extremo".
+
+The page must be fully optimized for mobile and desktop, visually modern, clean, professional, and focused on conversion.
+
+MAIN GOAL:
+Sell Lipo Extremo using the main differential:
+"Pagamento somente na entrega" (Cash on Delivery) and "Frete Grátis para todo o Brasil".
+
+The page must be persuasive, emotional, trustworthy, and structured using proven marketing and persuasion principles (authority, social proof, scarcity, reciprocity, security, commitment).
+
+-----------------------------------
+STRUCTURE REQUIRED:
+
+ 1.⁠ ⁠HERO SECTION (Above the Fold)
+
+Big headline in Portuguese:
+"Emagreça de Forma Natural, Segura e Pague Só Quando Receber em Casa"
+
+Subheadline:
+"Com Lipo Extremo, você ativa seu metabolismo, reduz medidas e só paga quando o produto chegar na sua porta."
+
+Bullet points:
+✔ Pagamento na Entrega
+✔ Frete Grátis
+✔ 30 Dias de Garantia
+✔ 100% Natural
+✔ Aprovado pelas Normas da Anvisa
+
+Main CTA Button:
+"QUERO EMAGRECER AGORA — PAGAR NA ENTREGA"
+
+-----------------------------------
+
+ 2.⁠ ⁠PROBLEM + EMPATHY SECTION
+
+Talk about pain:
+•⁠  ⁠dificuldade para emagrecer
+•⁠  ⁠dietas frustradas
+•⁠  ⁠efeito sanfona
+•⁠  ⁠falta de tempo
+•⁠  ⁠ansiedade alimentar
+•⁠  ⁠metabolismo lento
+
+Use emotional language.
+
+-----------------------------------
+
+ 3.⁠ ⁠SOLUTION SECTION — LIPO EXTREMO
+
+Explain:
+What is Lipo Extremo:
+•⁠  ⁠suplemento natural
+•⁠  ⁠acelera metabolismo
+•⁠  ⁠reduz inchaço
+•⁠  ⁠controla apetite
+•⁠  ⁠aumenta energia
+•⁠  ⁠ajuda na queima de gordura
+
+Mention ingredients:
+•⁠  ⁠L-Carnitina
+•⁠  ⁠Cafeína
+•⁠  ⁠Chá Verde
+•⁠  ⁠Gengibre
+•⁠  ⁠Taurina
+•⁠  ⁠Guaraná
+•⁠  ⁠Pimenta Caiena
+
+-----------------------------------
+
+ 4.⁠ ⁠BENEFITS SECTION
+
+Use icons and bullet points:
+
+✔ Queima gordura localizada
+✔ Reduz barriga e inchaço
+✔ Mais energia no dia a dia
+✔ Controle da fome
+✔ Resultados progressivos
+✔ Sem dietas malucas
+
+-----------------------------------
+
+ 5.⁠ ⁠SOCIAL PROOF — TESTIMONIALS
+
+Create a section for before/after photos.
+
+Include example testimonials:
+
+"Perdi 8kg em 2 meses, estou muito feliz!"
+"Primeira vez que consegui emagrecer sem sofrimento."
+"Produto chegou rápido e só paguei quando recebi."
+
+Leave space for real photos.
+
+-----------------------------------
+
+ 6.⁠ ⁠HOW IT WORKS SECTION
+
+Step by step:
+
+1️⃣ Você faz o pedido
+2️⃣ Enviamos para sua casa
+3️⃣ Você recebe
+4️⃣ Você paga na entrega
+5️⃣ Começa seu tratamento
+
+-----------------------------------
+
+ 7.⁠ ⁠OFFERS AND PRICES
+
+Create pricing cards:
+
+PLAN 1:
+1 Pote
+R$197
+30 dias
+Button:
+"COMPRAR 1 POTE — PAGAR NA ENTREGA"
+Link:
+https://entrega.logzz.com.br/pay/mem42e406/lipoextremo1pote197
+
+PLAN 2 (Best Seller — highlight):
+3 Potes
+R$277
+90 dias
+Economia especial
+Button:
+"COMPRAR 3 POTES — PAGAR NA ENTREGA"
+Link:
+https://entrega.logzz.com.br/pay/mem42e406/xmnru-lipoextremo3potes277
+
+PLAN 3:
+5 Potes
+R$477
+150 dias
+Maior economia
+Button:
+"COMPRAR 5 POTES — PAGAR NA ENTREGA"
+Link:
+https://entrega.logzz.com.br/pay/mem42e406/lipoextremo5potes477
+
+-----------------------------------
+
+ 8.⁠ ⁠GUARANTEE SECTION
+
+Title:
+"30 Dias de Garantia Incondicional"
+
+Explain:
+If the customer is not satisfied, can request refund.
+
+-----------------------------------
+
+ 9.⁠ ⁠FAQ SECTION
+
+Create accordion with questions based on:
+
+•⁠  ⁠É seguro?
+•⁠  ⁠Tem efeitos colaterais?
+•⁠  ⁠Precisa de receita?
+•⁠  ⁠Quanto tempo para resultados?
+•⁠  ⁠Gestantes podem usar?
+•⁠  ⁠Tem garantia?
+•⁠  ⁠Aprovado pela Anvisa?
+•⁠  ⁠Como usar?
+•⁠  ⁠Posso pagar na entrega?
+
+-----------------------------------
+
+10.⁠ ⁠URGENCY + SCARCITY
+
+Create section:
+
+"Últimas Unidades com Pagamento na Entrega"
+
+Explain:
+•⁠  ⁠Estoque limitado
+•⁠  ⁠Alta demanda
+•⁠  ⁠Promoção por tempo limitado
+
+-----------------------------------
+
+11.⁠ ⁠FINAL CTA SECTION
+
+Big section:
+
+"Comece Sua Transformação Hoje"
+
+Buttons:
+"QUERO RECEBER EM CASA E PAGAR NA ENTREGA"
+
+-----------------------------------
+
+12.⁠ ⁠FOOTER
+
+Include:
+•⁠  ⁠Política de Privacidade
+•⁠  ⁠Termos de Uso
+•⁠  ⁠Contato
+•⁠  ⁠WhatsApp Support
+•⁠  ⁠Selos de segurança
+
+-----------------------------------
+
+DESIGN REQUIREMENTS:
+
+•⁠  ⁠Modern UI
+•⁠  ⁠Purple / pink / fitness colors
+•⁠  ⁠Smooth animations
+•⁠  ⁠Responsive layout
+•⁠  ⁠Sticky CTA button on mobile
+•⁠  ⁠Floating WhatsApp button
+
+-----------------------------------
+
+IMPORTANT:
+
+Emphasize everywhere:
+
+✅ PAGAMENTO NA ENTREGA
+✅ FRETE GRÁTIS
+✅ 30 DIAS DE GARANTIA
+
+Generate full HTML, CSS, and JavaScript code ready to deploy.
+Make it SEO optimized.
+Make it fast loading.
+
+Do NOT write explanations.
+Only generate the final working code.

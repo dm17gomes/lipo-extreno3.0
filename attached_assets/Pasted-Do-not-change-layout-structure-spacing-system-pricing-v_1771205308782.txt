@@ -1,0 +1,78 @@
+Do not change layout structure, spacing system, pricing values, images, buttons, or component architecture.
+
+We need to fix a conversion conflict:
+
+Currently, the 5-unit kit appears as "Mais Vendido" in the bonus section, while the 3-unit kit is visually highlighted in the product cards. This creates psychological confusion.
+
+We will standardize the hierarchy:
+
+- 3 units = MAIS VENDIDO (highlighted visually)
+- 5 units = Melhor custo-benefício (NOT mais vendido)
+
+Follow these steps carefully:
+
+-------------------------------------------------------
+STEP 1 — BONUS SECTION ADJUSTMENT
+-------------------------------------------------------
+
+Locate the bonus comparison section (the one with medals and bonus descriptions).
+
+For the 5 UNIDADES block:
+
+1) Remove the text:
+"(MAIS VENDIDO)"
+
+2) Remove any purple "DESTAQUE" badge or highlight style applied to the 5-unit bonus box.
+
+3) Replace the removed text with:
+
+"(MELHOR CUSTO-BENEFÍCIO)"
+
+Do not add highlight styling to this block.
+
+-------------------------------------------------------
+STEP 2 — PRODUCT CARD (OfferCard) ADJUSTMENT
+-------------------------------------------------------
+
+In Home.tsx:
+
+Ensure that ONLY the 3-unit OfferCard contains:
+
+highlighted={true}
+
+The 5-unit OfferCard must NOT contain:
+- highlighted
+- badge
+- any featured flag
+
+-------------------------------------------------------
+STEP 3 — OFFER CARD COMPONENT (if needed)
+-------------------------------------------------------
+
+In client/src/components/OfferCard.tsx:
+
+If highlighted prop does not exist, add:
+
+highlighted?: boolean;
+
+Inside the main wrapper div of the card, apply conditional highlight styling:
+
+className={`rounded-2xl shadow-lg bg-white relative transition-all duration-300 ${
+  highlighted ? "border-2 border-purple-600 scale-105" : ""
+}`}
+
+Do not modify other styling.
+
+-------------------------------------------------------
+FINAL STRUCTURE REQUIRED
+-------------------------------------------------------
+
+1 Unit → Basic option  
+3 Units → MAIS VENDIDO (highlighted visually)  
+5 Units → Melhor custo-benefício (no highlight)
+
+Maintain full TypeScript compatibility.
+Do not refactor unrelated code.
+Only implement the hierarchy fix.
+
+End of instructions.

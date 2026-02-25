@@ -1,0 +1,115 @@
+Create a new PREMIUM SOCIAL PROOF section in the existing landing page.
+
+IMPORTANT:
+	•	DO NOT modify any existing section.
+	•	DO NOT change design, layout, colors, fonts or CTA buttons.
+	•	DO NOT remove anything.
+	•	ONLY ADD new sections below the benefits section and above the pricing section.
+	•	Maintain the exact same visual style already implemented.
+	•	Keep it fully responsive and mobile optimized.
+	•	Use the same color palette and animations already in the page.
+
+The content must be entirely in Brazilian Portuguese.
+
+⸻
+
+SECTION TITLE:
+
+“Resultados Reais de Quem Já Está Transformando o Corpo com Lipo Extremo”
+
+Subtitle:
+
+“Veja depoimentos reais, antes e depois e mensagens de clientes satisfeitos.”
+
+⸻
+
+STRUCTURE REQUIRED:
+
+1️⃣ VIDEO TESTIMONIAL SECTION
+
+Create a clean responsive grid:
+	•	First video highlighted larger (emotional testimonial)
+	•	Second video slightly smaller (rational testimonial)
+
+Add label above first video:
+“Depoimento Real — História de Transformação”
+
+Add label above second video:
+“Depoimento Real — Experiência com Entrega e Resultado”
+
+Below videos add short persuasive text:
+
+“Milhares de pessoas já estão conquistando autoestima, energia e resultados reais com Lipo Extremo. O próximo resultado pode ser o seu.”
+
+⸻
+
+2️⃣ BEFORE AND AFTER SECTION
+
+Title:
+
+“Antes e Depois — Resultados Visíveis”
+
+Create a modern image gallery slider (mobile swipe enabled).
+
+Add text below:
+
+“Resultados individuais podem variar. O uso correto e contínuo potencializa os efeitos.”
+
+Add subtle badge overlay on images:
+
+“Resultado Real”
+
+⸻
+
+3️⃣ WHATSAPP PRINTS SECTION
+
+Title:
+
+“O Que Nossos Clientes Estão Dizendo”
+
+Create a responsive masonry grid for WhatsApp screenshots.
+
+Add small caption under grid:
+
+“Mensagens reais de clientes que receberam, usaram e aprovaram.”
+
+⸻
+
+4️⃣ MICRO-CONVERSION BLOCK (VERY IMPORTANT)
+
+After social proof section add a mini CTA block:
+
+Background soft gradient (same brand colors)
+
+Text:
+
+“Você pode ser o próximo caso de sucesso.”
+
+Subtext:
+
+“Frete grátis • Pagamento na entrega (regiões atendidas) • Pagamento online disponível para todo o Brasil • 30 dias de garantia”
+
+Button:
+
+“QUERO COMEÇAR AGORA”
+
+This button should scroll to pricing section.
+
+⸻
+
+TECHNICAL REQUIREMENTS:
+	•	Lazy load images and videos for performance
+	•	Smooth fade-in animation on scroll
+	•	Fully responsive
+	•	Keep page speed optimized
+	•	No external heavy libraries
+	•	Maintain current design consistency
+
+IMPORTANT:
+Only add these new sections.
+Do not rewrite existing HTML.
+Do not change header, hero, pricing, FAQ or footer.
+
+⸻
+
+End of instructions.

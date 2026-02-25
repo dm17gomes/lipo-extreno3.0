@@ -1,0 +1,186 @@
+Create a complete, high-conversion sales landing page in Brazilian Portuguese for a weight loss supplement called "Lipo Extremo".
+
+The page must be modern, responsive, fast-loading, optimized for mobile and desktop, and focused on trust and conversions.
+
+MAIN GOAL:
+Sell Lipo Extremo using two payment options:
+
+1) Cash on Delivery (Pagamento na Entrega) — Available only for selected regions
+2) Online Payment — Available nationwide with Sedex delivery
+
+Both options must be clearly explained transparently to build trust.
+
+-----------------------------------
+STRUCTURE REQUIRED:
+
+1. HERO SECTION (Above the Fold)
+
+Headline:
+"Emagreça com Segurança e Escolha Como Pagar: Na Entrega ou Online"
+
+Subheadline:
+"Receba em casa com frete grátis, garantia de 30 dias e suporte especializado."
+
+Badges:
+✔ Pagamento na Entrega (Regiões Atendidas)
+✔ Pagamento Online Seguro
+✔ Frete Grátis
+✔ 30 Dias de Garantia
+✔ 100% Natural
+
+Primary CTA:
+"COMEÇAR MEU TRATAMENTO AGORA"
+
+-----------------------------------
+
+2. TRUST + TRANSPARENCY SECTION
+
+Explain:
+
+"Para oferecer mais segurança aos nossos clientes, trabalhamos com duas formas de pagamento."
+
+Explain each option clearly:
+
+Pagamento na Entrega:
+Disponível para regiões selecionadas. Você recebe o produto primeiro e paga ao entregador.
+
+Pagamento Online:
+Disponível para todo o Brasil com envio via Sedex e rastreamento.
+
+-----------------------------------
+
+3. PROBLEM SECTION
+
+Talk about:
+- dificuldade para emagrecer
+- frustração
+- efeito sanfona
+- metabolismo lento
+- ansiedade alimentar
+
+-----------------------------------
+
+4. PRODUCT SECTION — LIPO EXTREMO
+
+Explain:
+- suplemento natural
+- acelera metabolismo
+- reduz inchaço
+- controla apetite
+- aumenta energia
+
+Ingredients:
+L-Carnitina, Cafeína, Chá Verde, Gengibre, Taurina, Guaraná, Pimenta Caiena
+
+-----------------------------------
+
+5. BENEFITS SECTION
+
+✔ Queima gordura
+✔ Reduz medidas
+✔ Mais energia
+✔ Controle do apetite
+✔ Resultados progressivos
+✔ Sem dietas extremas
+
+-----------------------------------
+
+6. SOCIAL PROOF
+
+Create section for testimonials and before/after photos.
+
+-----------------------------------
+
+7. HOW IT WORKS
+
+1️⃣ Escolha o plano
+2️⃣ Escolha a forma de pagamento
+3️⃣ Receba em casa
+4️⃣ Inicie seu tratamento
+
+-----------------------------------
+
+8. OFFERS SECTION — TWO PAYMENT OPTIONS
+
+PLAN 1 — 1 Pote — R$197
+
+Cash on Delivery:
+https://entrega.logzz.com.br/pay/mem42e406/lipoextremo1pote197
+
+Online Payment:
+https://ev.braip.com/ref?pl=plaplxpw&ck=chel0xpl&af=afi11lgv0o
+
+-----------------------------------
+
+PLAN 2 — 3 Potes — R$277 (Mais Vendido)
+
+Cash on Delivery:
+https://entrega.logzz.com.br/pay/mem42e406/xmnru-lipoextremo3potes277
+
+Online Payment:
+https://ev.braip.com/ref?pl=plan2plq&ck=chel0xpl&af=afi11lgv0o
+
+-----------------------------------
+
+PLAN 3 — 5 Potes — R$477 (Melhor Custo)
+
+Cash on Delivery:
+https://entrega.logzz.com.br/pay/mem42e406/lipoextremo5potes477
+
+Online Payment:
+https://ev.braip.com/ref?pl=pla6lvdl&ck=chel0xpl&af=afi11lgv0o
+
+-----------------------------------
+
+9. GUARANTEE SECTION
+
+Title:
+"Garantia Incondicional de 30 Dias"
+
+-----------------------------------
+
+10. FAQ SECTION
+
+Include payment, shipping and safety questions.
+
+-----------------------------------
+
+11. FOOTER — COMPANY INFO
+
+Include:
+
+Distribuído por:
+CICLO369 NUTRITION LTDA
+CNPJ: 60.013.838/0001-41
+
+Contato:
+Email: atendimento@lipoextremohardcore.com.br
+Telefone: (14) 98229-2161
+WhatsApp: +55 91 98021-5556
+
+-----------------------------------
+
+12. FLOATING BUTTONS
+
+WhatsApp:
+https://wa.me/5591980215556
+
+Click-to-call:
+tel:+5514982292161
+
+-----------------------------------
+
+DESIGN REQUIREMENTS:
+
+- Modern fitness design
+- Responsive
+- SEO optimized
+- Fast loading
+
+-----------------------------------
+
+IMPORTANT:
+
+All visible content must be in Brazilian Portuguese.
+Do NOT write explanations.
+Generate full production-ready HTML, CSS, and JavaScript code.
