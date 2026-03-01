@@ -41,7 +41,7 @@ export function FloatingCTA() {
                 className="flex items-center gap-3 cursor-pointer"
               >
                 <div className="bg-gradient-to-r from-purple-600 to-purple-500 text-white font-bold text-xs sm:text-sm px-4 py-2 rounded-xl uppercase tracking-tight transition-transform active:scale-95">
-                  COMEÇAR PELO PROTOCOLO 7D
+                  CONHECER O PROTOCOLO 7D
                 </div>
 
                 <div className="text-left">
@@ -49,7 +49,7 @@ export function FloatingCTA() {
                     Protocolo Start Detox 7D™
                   </p>
                   <p className="text-gray-600 text-[10px] sm:text-xs leading-tight">
-                    Comece pelo plano Start de R$47 e dê o primeiro passo com investimento acessível.
+                    Comece pelo plano Start por 12X de R$5,47 e dê o primeiro passo com investimento acessível.
                   </p>
                 </div>
               </Link>

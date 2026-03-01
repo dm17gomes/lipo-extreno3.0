@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect,useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Link as ScrollLink } from "react-scroll";
 import { 
@@ -14,6 +14,7 @@ import {
   ThumbsUp,
   AlertTriangle,
   Timer,
+  Check,
   Star,
   ZapOff,
   Activity
@@ -25,7 +26,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
-import { OfferCard } from "@/components/OfferCard";
+import { OfferCard } from "../components/OfferCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { FloatingCTA } from "@/components/FloatingCTA";
 
@@ -55,7 +56,34 @@ const SectionCTA = ({ text = "QUERO EMAGRECER AGORA" }) => (
   </div>
 );
 
-export default function Home() {
+  export default function Home() {
+
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [soundOn, setSoundOn] = useState(false);
+const [mounted, setMounted] = useState(false);
+useEffect(() => {
+  setMounted(true);
+}, []);
+
+const handleSound = () => {
+  if (!videoRef.current) return;
+
+  videoRef.current.muted = false;
+  videoRef.current.currentTime = 0;
+  videoRef.current.play();
+
+  setSoundOn(true);
+};
+
+const togglePlay = () => {
+  if (!videoRef.current) return;
+
+  if (videoRef.current.paused) {
+    videoRef.current.play();
+  } else {
+    videoRef.current.pause();
+  }
+};
   
   useEffect(() => {
     document.documentElement.style.scrollBehavior = "smooth";
@@ -126,7 +154,7 @@ export default function Home() {
 
       {/* --- HERO SECTION --- */}
       <section className="relative pt-24 pb-12 sm:pt-32 sm:pb-20 lg:pt-48 lg:pb-32 bg-white">
-        <UrgencyBanner text="Promoção Exclusiva: Frete Grátis Somente Esta Semana" />
+        <UrgencyBanner text="Promoção Exclusiva:Ultimas unidades com FRETE GRATÍS! " />
         <div className="absolute inset-0 z-0 bg-gradient-to-br from-purple-200/200 via-white to-pink-200/200"></div>
         <div className="container mx-auto px-4 relative z-10 mt-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -138,19 +166,19 @@ export default function Home() {
             >
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary font-bold text-sm mb-6 border border-primary/20">
                 <Star className="w-4 h-4 fill-current" />
-                <span>MÉTODO COMPROVADO POR MILHARES DE PESSOAS</span>
+                <span>MÉTODO COMPROVADO POR +5MIL DE PESSOAS</span>
               </div>
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-black leading-tight sm:leading-[1.1] mb-6 text-gray-900">
                 Cansada de tentar emagrecer e <span className="text-gradient">nada funcionar?</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed font-medium">
-                Descubra o método que já ajudou milhares de pessoas a eliminar até 12kg sem sofrimento.
+                Descubra o método que já ajudou mais de 5Mil pessoas a eliminar até 12kg sem sofrimento.
               </p>
               
               <div className="flex flex-col items-center lg:items-start gap-4 mb-8">
                 <ScrollLink to="results" smooth={true} offset={-50} className="w-full sm:w-auto">
                   <Button size="lg" className="w-full sm:w-auto h-auto min-h-[4.5rem] py-4 px-10 text-xl sm:text-2xl rounded-2xl font-black bg-gradient-to-r from-primary to-secondary shadow-2xl hover:shadow-primary/40 transition-all uppercase tracking-tight">
-                    VER RESULTADOS REAIS
+                    QUERO SABER MAIS
                   </Button>
                 </ScrollLink>
                 <div className="text-[10px] sm:text-xs text-gray-500 font-medium flex flex-col items-center lg:items-start gap-1">
@@ -170,20 +198,60 @@ export default function Home() {
               </div>
             </motion.div>
             
-            <motion.div 
-              initial={{ opacity: 0, scale: 0.9 }} 
-              animate={{ opacity: 1, scale: 1 }} 
-              className="relative order-first lg:order-last"
-            >
-              <div className="absolute inset-0 bg-primary/20 rounded-full blur-[120px] transform scale-75 animate-pulse"></div>
-              <img src={HERO_IMG} alt="Lipo Extremo" className="relative z-10 w-full h-auto object-cover rounded-xl mx-auto drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]" />
-            </motion.div>
-          </div>
-        </div>
-      </section>
+            <motion.div
+  initial={{ opacity: 0, scale: 0.9 }}
+  animate={{ opacity: 1, scale: 1 }}
+  className="relative order-first lg:order-last"
+>
+  <div className="absolute inset-0 bg-primary/20 rounded-full blur-[120px] transform scale-75 animate-pulse"></div>
+
+  <div className="relative">
+    <video
+      ref={videoRef}
+      className="relative z-10 w-full h-auto object-cover rounded-3xl"
+      playsInline
+      preload="metadata"
+      muted
+    >
+
+      <source src="/videos/video-entrada-1.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeo.
+    </video>
+
+    {mounted && !soundOn && (
+      <div className="absolute inset-0 flex items-center justify-center bg-black/40 rounded-3x1 z-20">
+      <button
+        type="button"
+        onClick={handleSound}
+       className="bg-purple-600 hover:bg-purple-700 transition px-8 py-4 rounded-full text-white font-bold shadow-xl"
+         >
+          🔊 ATIVAR SOM
+      </button>
+      </div>
+    )}
+
+{soundOn && (
+  <button
+    onClick={togglePlay}
+    className="absolute bottom-4 right-4 bg-black/60 text-white px-4 py-2 rounded-full text-sm backdrop-blur-md z-20"
+  >
+    {videoRef.current?.paused ? "▶ Continuar" : "⏸ Pausar"}
+  </button>
+)}
+
+  </div>
+
+<p className="text-sm text-gray-600 mt-3 text-center">
+  ⚠️ O erro que está travando seu emagrecimento pode estar sendo revelado nesse vídeo.
+</p>
+
+</motion.div>
+            </div>
+            </div>
+            </section>
 
       {/* --- PROBLEM SECTION --- */}
-      <section className="py-12 sm:py-20 bg-gray-50 border-y border-gray-100">
+      <section className="py-10 sm:py-12 bg-gray-50 border-y border-gray-100">
         <div className="container mx-auto px-4 max-w-5xl">
           <SectionHeading 
             title="Por que é tão difícil emagrecer sozinha?" 
@@ -199,7 +267,7 @@ export default function Home() {
               { icon: <Clock className="text-blue-600" />, title: "Falta de Tempo", desc: "Rotinas exaustivas que não deixam espaço para exercícios." },
               { icon: <ThumbsUp className="text-purple-600" />, title: "Dietas Frustradas", desc: "Promessas milagrosas que só trazem fome e desânimo." }
             ].map((item, i) => (
-              <div key={i} className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
+              <div key={i} className="bg-white p-4 rounded-3xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
                 <div className="w-12 h-12 bg-gray-50 rounded-2xl flex items-center justify-center mb-4">
                   {item.icon}
                 </div>
@@ -256,8 +324,8 @@ export default function Home() {
             {/* 1. Strongest Before/After first */}
             <div>
               <h3 className="text-2xl font-black mb-10 text-center text-gray-900 uppercase tracking-widest">Transformações em Destaque</h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                {[1, 2, 3, 4, 5, 6].map((i) => (
+              <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 max-w-6xl mx-auto">
+                {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10,].map((i) => (
                   <div key={i} className="relative group rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white transform transition-all hover:scale-[1.02]">
                     <img 
                       src={`/images/social-proof/ba-${i}.jpg`} 
@@ -265,20 +333,15 @@ export default function Home() {
                       className="w-full h-auto object-cover rounded-xl"
                       loading="lazy"
                     />
-                    <div className="absolute bottom-4 left-4 right-4">
-                      <div className="bg-primary/95 backdrop-blur-sm text-white text-xs font-black px-4 py-2 rounded-xl uppercase text-center shadow-lg">
-                        Resultado Real Confirmado
-                      </div>
-                    </div>
                   </div>
                 ))}
               </div>
             </div>
 
             {/* 2. Testimonial Cards */}
-            <div className="bg-white py-16 rounded-[3rem] shadow-xl border border-gray-100">
+            <div className="bg-white py-4 rounded-[3rem] shadow-xl border border-gray-100">
               <div className="container mx-auto px-4 max-w-6xl">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   {[
                     { name: "Mariana S.", result: "-8kg", text: "Perdi 8kg em 2 meses, estou muito feliz! Minhas roupas voltaram a servir.", img: "/images/testimonials/user-1.jpg" },
                     { name: "Carla P.", result: "-12kg", text: "Primeira vez que consegui emagrecer sem sofrimento. O produto chegou rápido.", img: "/images/testimonials/user-2.jpg" },
@@ -322,13 +385,13 @@ export default function Home() {
                   { src: "/videos/testimonial-1.mp4", poster: "/videos/poster-1.jpg", label: "Relato Emocional" },
                   { src: "/videos/testimonial-2.mp4", poster: "/videos/poster-2.jpg", label: "Experiência de Compra" }
                 ].map((v, i) => (
-                  <div key={i} className="space-y-4 w-full max-w-[320px]">
-                    <div className="bg-black rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-white aspect-[9/16] relative">
+                  <div key={i} className="space-y-4 w-full max-w-[260px]">
+                    <div className="bg-black rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white aspect-[9/16] relative">
                       <video
                         controls
                         playsInline
                         preload="metadata"
-                        className="w-full h-full object-cover rounded-2x1"
+                        className="w-full hMAX-H-[70VH] rounded-3x1 object-cover"
                       >
                         <source src={v.src} type="video/mp4" />
                         Your browser does not support the video tag.
@@ -358,7 +421,7 @@ export default function Home() {
       </section>
 
       {/* --- BONUS SECTION --- */}
-      <section className="py-12 sm:py-24 bg-purple-50">
+      <section className="py-10 sm:py-14 bg-purple-50">
         <div className="container mx-auto px-4 max-w-5xl">
           <SectionHeading 
             title="🎁 BÔNUS EXCLUSIVOS POR TEMPO LIMITADO" 
@@ -368,38 +431,27 @@ export default function Home() {
           
           <div className="mt-8 bg-white p-8 sm:p-12 rounded-[2.5rem] border border-primary/20 shadow-xl">
             <p className="text-xl font-bold text-gray-900 mb-8 text-center">Ao finalizar seu pedido, você recebe gratuitamente:</p>
+
+
+            <div className="bg-white rounded-2xl p-4 space-y-3 shadow-sm">
+  <div className="flex items-center gap-2">
+    <Check className="w-4 h-4 text-primary" />
+    <span>Guia Sucos Detox</span>
+  </div>
+
+  <div className="flex items-center gap-2">
+    <Check className="w-4 h-4 text-primary" />
+    <span>Guia Prático de Lanches Saudáveis</span>
+  </div>
+
+  <div className="flex items-center gap-2">
+    <Check className="w-4 h-4 text-primary" />
+    <span>Cardápio Detox Power 7 Dias</span>
+  </div>
+</div>
+
             
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 flex flex-col items-center text-center">
-                <span className="text-4xl mb-4">🥉</span>
-                <h4 className="text-lg font-black text-gray-900 mb-4 uppercase">1 Unidade</h4>
-                <ul className="space-y-2 text-gray-600 font-medium text-sm">
-                  <li className="flex items-center gap-2">✔️ Guia Sucos Detox</li>
-                </ul>
-              </div>
-              
-              <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 flex flex-col items-center text-center relative overflow-hidden">
-                <span className="text-4xl mb-4">🥈</span>
-                <h4 className="text-lg font-black text-gray-900 mb-4 uppercase">3 Unidades</h4>
-                <ul className="space-y-2 text-gray-600 font-medium text-sm">
-                  <li className="flex items-center gap-2">✔️ Guia Sucos Detox</li>
-                  <li className="flex items-center gap-2">✔️ Guia Prático de Lanches Saudáveis</li>
-                </ul>
-              </div>
-              
-              <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 flex flex-col items-center text-center relative overflow-hidden">
-                <span className="text-4xl mb-4">🥇</span>
-                <h4 className="text-lg font-black text-gray-900 mb-2 uppercase">5 Unidades</h4>
-                <span className="text-[10px] font-black text-primary uppercase tracking-widest mb-4">(MELHOR CUSTO-BENEFÍCIO)</span>
-                <ul className="space-y-2 text-gray-600 font-medium text-sm">
-                  <li className="flex items-center gap-2">✔️ Guia Sucos Detox</li>
-                  <li className="flex items-center gap-2">✔️ Guia Prático de Lanches Saudáveis</li>
-                  <li className="flex items-center gap-2">✔️ Cardápio Detox Power 7 Dias</li>
-                </ul>
-              </div>
-            </div>
-            
-            <div className="mt-12 p-6 bg-red-50 border-2 border-red-100 rounded-2xl text-center">
+            <div className="mt-12 p-3 bg-red-50 border-2 border-red-100 rounded-2xl text-center">
               <p className="text-red-700 font-bold mb-4 flex items-center justify-center gap-2">
                 ⚠️ Esses bônus não estão disponíveis na compra comum e podem sair do ar a qualquer momento.
               </p>
@@ -465,10 +517,10 @@ export default function Home() {
         <div id="protocolo-start-7d" className="scroll-mt-32"></div>
         <div className="container mx-auto px-4">
           <SectionHeading title="Escolha Seu Tratamento" subtitle="Selecione o kit ideal para o seu objetivo de emagrecimento" centered={true} />
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-12 max-w-6xl mx-auto mt-16 items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 max-w-6xl mx-auto mt-16 items-center">
             <OfferCard 
               title="Kit Máximo (5 Potes)" price=" 12x de R$ 49,33" originalPrice="R$ 997,00" savings="R$ 520,00"
-              highlighted={true}
+              highlighted={false}
               badge="MAIOR ECONOMIA"
               features={[
                 "ou R$ 477,00 à Vista.",
@@ -511,7 +563,7 @@ export default function Home() {
             </div>
             <OfferCard 
               title="Kit Inicial (1 Pote)" price="12x de R$ 20,37" originalPrice="R$ 297,00" 
-              badge="Comece com segurança"
+              badge=" Quero Experimentar"
               priceNote="Ideal para testar por 30 dias"
               features={[
                 " ou R$ 197,00 à Vista.",
@@ -540,14 +592,26 @@ export default function Home() {
       {/* --- DIGITAL PRODUCT SECTION --- */}
       <section  id="protocolo-start-7d" className="py-12 sm:py-24 bg-gray-50 border-y border-gray-100">
         <div className="container mx-auto px-4 max-w-2xl">
-          <div className="bg-white rounded-[3rem] overflow-hidden shadow-2xl border border-gray-100 p-8 sm:p-12 lg:p-16">
+          <div className="relative bg-white rounded-[3rem] overflow-hidden shadow-2xl border border-gray-100 p-6 sm:p-8 lg:p-12">
             <div className="flex flex-col items-center">
-              <div className="w-full max-w-sm mb-10">
+              <div className="relative bg-white rounded-[3ren] overflow-visible shadow-2x1">
+
+{/* Badge */}
+  <div className="absolute -top-3 left-1/2 -translate-x-1/2 z-30">
+                <div className="inline-flex items-center gap-2 px-7 py-2.5 rounded-full bg-orange-100 text-orange-900 font-bold text-xs mb-6 border border-orange-400 uppercase tracking-widest">
+      ULTIMAS VAGAS
+    </div>
+  </div>
+<div className="flex flex-col items-center">
+  <div className="w-full max-w-sm mb-8">
                 <img 
                   src="/images/digital-product.png" 
                   alt="Protocolo Start Detox 7D" 
                   className="w-full h-auto object-contain mx-auto"
+
                 />
+              </div>
+              </div>
               </div>
 
               <div className="w-full text-center">
@@ -579,7 +643,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center gap-2 text-gray-700 font-medium">
                     <CheckCircle2 className="w-5 h-5 text-green-500" />
-                    Cardápio Estratégico
+                    Cardápio Estratégico +150 Receitas 
                   </div>
                   <div className="flex items-center gap-2 text-gray-700 font-medium">
                     <CheckCircle2 className="w-5 h-5 text-green-500" />
